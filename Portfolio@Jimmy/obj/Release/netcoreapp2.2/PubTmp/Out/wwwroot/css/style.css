@@ -1,0 +1,1363 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background: url(../images/galatic.svg)center/cover fixed no-repeat;
+    
+}
+input[type="radio"] {
+    position: fixed;
+    top: -10000px;
+    left: -10000px;
+}
+
+section {   
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: visible;
+    transform: translateX(-300vw);
+    transition: transform 0ms 1000ms;
+}
+
+section > * {
+    transform: translateY(-50vh);
+    opacity: 0;
+    text-align: center;
+    transition: 1s 0s;
+}
+
+
+
+input:checked + section {
+    transform: translateX(0);
+}
+
+input:checked + section > * {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+input:checked + section > *:nth-child(1) {
+    transition-delay: 1s;
+}
+
+input:checked + section > *:nth-child(2) {
+    transition-delay: 3s;
+}
+
+input:checked + section > *:nth-child(3) {
+    transition-delay: 4s;
+}
+
+
+input:checked + #project > *:nth-child(1) {
+    transition-delay: 1s;
+}
+
+input:checked + #project > *:nth-child(2) {
+    transition-delay: 1.4s;
+}
+
+input:checked + #project > *:nth-child(3) {
+    transition-delay: 1.8s;
+}
+input:checked + #project > *:nth-child(4) {
+    transition-delay: 2.2s;
+}
+input:checked + #project > *:nth-child(5) {
+    transition-delay: 2.6s;
+}
+input:checked + #project > *:nth-child(6) {
+    transition-delay: 3s;
+}
+
+/*==========Navigation===========*/
+
+
+
+#nav-container {
+    width: 100vw;
+    max-height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+nav {
+    margin-top: 2vh;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    justify-self:flex-end;
+}
+
+nav label {
+    width: 8vw;
+    height: 3vw;
+    font-size: 1.4vw;
+    position: relative;
+    z-index: 200;
+}
+
+label svg,
+label svg rect {
+    position: absolute;
+    padding-bottom: 1vw;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+
+}
+
+label svg rect {
+
+    transition: 2s;
+    stroke-dashoffset: 36vw;
+
+}
+
+label:hover svg rect {
+    stroke: white;
+    stroke-width: 4;
+    cursor: pointer;
+    stroke-dasharray: 36vw;
+    stroke-dashoffset: 0;
+
+}
+
+#social {
+    margin-top: 2vh;
+    z-index: 300;
+    text-align: center;
+    text-transform: uppercase;
+    justify-self: flex-end;
+    padding-right: 40px;
+}
+#social a{
+    padding-right:10px;
+}
+#github,#codepen,#linkedin {
+    width: 20px;
+    fill: white;
+}
+    #github:hover, #codepen:hover, #linkedin:hover {
+        fill:pink;
+        animation: side 3s ease;
+    }
+
+@keyframes side {
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+/*========End of navigation=============*/
+
+/*=============Home=====================*/
+
+#title {
+    padding-bottom: 6vw;
+    width: 500px;
+    margin: 0 auto;
+    animation: move 10s infinite alternate 14s;
+}
+
+#logo path:nth-child(1) {
+    stroke-dasharray: 98.73223876953125;
+    stroke-dashoffset: 98.73223876953125;
+    animation: line-anim 10s ease forwards;
+}
+
+#title path:nth-child(2) {
+    stroke-dasharray: 65.65174865722656;
+    stroke-dashoffset: 65.65174865722656;
+    animation: line-anim 10s ease forwards .3s;
+}
+
+#title path:nth-child(3) {
+    stroke-dasharray: 41.11375045776367;
+    stroke-dashoffset: 41.11375045776367;
+    animation: line-anim 10s ease forwards .6s;
+}
+
+#title path:nth-child(4) {
+    stroke-dasharray: 60.03411102294922;
+    stroke-dashoffset: 60.03411102294922;
+    animation: line-anim 10s ease forwards .9s;
+}
+
+#title path:nth-child(5) {
+    stroke-dasharray: 65.92826080322266;
+    stroke-dashoffset: 65.92826080322266;
+    animation: line-anim 10s ease forwards 1.2s;
+}
+
+#title path:nth-child(6) {
+    stroke-dasharray: 100.16345977783203;
+    stroke-dashoffset: 100.16345977783203;
+    animation: line-anim 10s ease forwards 1.5s;
+}
+
+#title path:nth-child(7) {
+    stroke-dasharray: 65.65379333496094;
+    stroke-dashoffset: 65.65379333496094;
+    animation: line-anim 10s ease forwards 1.8s;
+}
+
+#title path:nth-child(8) {
+    stroke-dasharray: 45.38574981689453;
+    stroke-dashoffset: 45.38574981689453;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(9) {
+    stroke-dasharray: 65.92822265625;
+    stroke-dashoffset: 65.92822265625;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(10) {
+    stroke-dasharray: 100.16564178466797;
+    stroke-dashoffset: 100.16564178466797;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(11) {
+    stroke-dasharray: 47.87104034423828;
+    stroke-dashoffset: 47.87104034423828;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(12) {
+    stroke-dasharray: 66.6762466430664;
+    stroke-dashoffset: 66.6762466430664;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(13) {
+    stroke-dasharray: 28.96778106689453;
+    stroke-dashoffset: 28.96778106689453;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(14) {
+    stroke-dasharray: 45.38574981689453;
+    stroke-dashoffset: 45.38574981689453;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(15) {
+    stroke-dasharray: 65.65571594238281;
+    stroke-dashoffset: 65.65571594238281;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(16) {
+    stroke-dasharray: 28.967792510986328;
+    stroke-dashoffset: 28.967792510986328;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(17) {
+    stroke-dasharray: 11.349660873413086;
+    stroke-dashoffset: 11.349660873413086;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(18) {
+    stroke-dasharray: 100.16567993164062;
+    stroke-dashoffset: 100.16567993164062;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(19) {
+    stroke-dasharray: 41.76646423339844;
+    stroke-dashoffset: 41.76646423339844;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(20) {
+    stroke-dasharray: 28.967823028564453;
+    stroke-dashoffset: 28.967823028564453;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(21) {
+    stroke-dasharray: 100.1636734008789;
+    stroke-dashoffset: 100.1636734008789;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(22) {
+    stroke-dasharray: 100.16305541992188;
+    stroke-dashoffset: 100.16305541992188;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(23) {
+    stroke-dasharray: 47.871585845947266;
+    stroke-dashoffset: 47.871585845947266;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(24) {
+    stroke-dasharray: 83.53245544433594;
+    stroke-dashoffset: 83.53245544433594;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(25) {
+    stroke-dasharray: 123.5584945678711;
+    stroke-dashoffset: 123.5584945678711;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(26) {
+    stroke-dasharray: 151.46583557128906;
+    stroke-dashoffset: 151.46583557128906;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(27) {
+    stroke-dasharray: 57.937599182128906;
+    stroke-dashoffset: 57.937599182128906;
+    animation: line-anim 10s ease forwards;
+}
+
+#title path:nth-child(28) {
+    stroke-dasharray: 131.85653686523438;
+    stroke-dashoffset: 131.85653686523438;
+    animation: line-anim 10s ease forwards .3s;
+}
+
+#title path:nth-child(29) {
+    stroke-dasharray: 140.93344116210938;
+    stroke-dashoffset: 140.93344116210938;
+    animation: line-anim 10s ease forwards .6s;
+}
+
+#title path:nth-child(30) {
+    stroke-dasharray: 197.4646453857422;
+    stroke-dashoffset: 197.4646453857422;
+    animation: line-anim 10s ease forwards .9s;
+}
+
+#title path:nth-child(31) {
+    stroke-dasharray: 131.30958557128906;
+    stroke-dashoffset: 131.30958557128906;
+    animation: line-anim 10s ease forwards 1.2s;
+}
+
+#title path:nth-child(32) {
+    stroke-dasharray: 151.83738708496094;
+    stroke-dashoffset: 151.83738708496094;
+    animation: line-anim 10s ease forwards 1.5s;
+}
+
+#title path:nth-child(33) {
+    stroke-dasharray: 135.67027282714844;
+    stroke-dashoffset: 135.67027282714844;
+    animation: line-anim 10s ease forwards 1.8s;
+}
+
+#title path:nth-child(34) {
+    stroke-dasharray: 131.3094940185547;
+    stroke-dashoffset: 131.3094940185547;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(35) {
+    stroke-dasharray: 109.61542510986328;
+    stroke-dashoffset: 109.61542510986328;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(36) {
+    stroke-dasharray: 131.3096160888672;
+    stroke-dashoffset: 131.3096160888672;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(37) {
+    stroke-dasharray: 82.23160552978516;
+    stroke-dashoffset: 82.23160552978516;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(38) {
+    stroke-dasharray: 131.85659790039062;
+    stroke-dashoffset: 131.85659790039062;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(39) {
+    stroke-dasharray: 120.64563751220703;
+    stroke-dashoffset: 120.64563751220703;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(40) {
+    stroke-dasharray: 131.30967712402344;
+    stroke-dashoffset: 131.30967712402344;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+#title path:nth-child(41) {
+    stroke-dasharray: 140.93336486816406;
+    stroke-dashoffset: 140.93336486816406;
+    animation: line-anim 10s ease forwards 2.1s;
+}
+
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes move {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+    
+
+
+
+
+#css:hover .c-outer {
+    animation: blue 1s infinite alternate;
+
+}
+
+
+
+#css:hover .c-inner {
+    animation: size 3s ease;
+
+}
+
+#css:hover .c-background {
+    animation: black 3s ease 4s;
+
+}
+
+
+
+#html:hover .h-outer {
+    animation: orange 1s infinite alternate;
+
+}
+
+#html:hover .h-inner {
+    animation: size 3s ease;
+
+}
+
+#html:hover .h-background {
+    animation: black 3s ease 4s;
+
+}
+
+#javascript:hover #j-background {
+    animation: black 2s ease forwards;
+
+}
+
+#javascript:hover .j-inner {
+    animation: yellow 1s infinite alternate;
+
+}
+
+#bootstrap:hover #b-inner {
+    stroke-dasharray: 907;
+    stroke-dashoffset: 907;
+    animation: line 8s ease forwards, purple 1s ease forwards 3s;
+}
+
+#bootstrap:hover #b-background {
+
+    animation: white 1s ease forwards;
+}
+
+
+@keyframes blue {
+
+    to {
+        fill: blue;
+        transform: scale(1.1);
+
+    }
+}
+
+@keyframes size {
+
+    to {
+        transform: scaleY(.9);
+    }
+}
+
+@keyframes orange {
+
+
+    to {
+        fill: #E44D26;
+        transform: scale(1.1);
+
+    }
+}
+
+@keyframes black {
+
+    to {
+
+        fill: black;
+
+    }
+}
+
+@keyframes yellow {
+
+    to {
+
+        fill: #F7DF1E;
+
+    }
+}
+
+@keyframes white {
+
+    to {
+        stroke-width: 20;
+        stroke: #563D7C;
+        fill: #FFF;
+
+    }
+}
+
+@keyframes purple {
+
+    to {
+
+        fill: #563D7C;
+
+    }
+}
+
+@keyframes line {
+
+    to {
+        stroke-width: 2;
+        stroke: #563D7C;
+        stroke-dashoffset: 0;
+
+    }
+}
+/*===========End of Home===========*/
+
+/*============About me============*/
+#aboutMe{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 2vw;
+    padding-top:5vw;
+    
+}
+#jimmy {
+    width: 250px;
+    margin: 0 auto;
+}
+
+#section2:checked + #aboutMe #jimmy path {
+    stroke: #040404;
+    stroke-dasharray: 4197;
+    stroke-dashoffset: 4197;
+    animation: pic-anim 60s ease;
+}
+
+
+@keyframes pic-anim {
+    from {
+        fill: transparent;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+        fill: #040404;
+    }
+}
+#about-content{
+    color:white;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    border-right:1px solid white;
+    padding: 2vw;
+}
+
+#para h4 {
+    text-align: center;
+    margin-top: 20px;
+}
+#para  h6{
+    text-align: center;
+    margin-bottom:20px;
+}
+#resume-link {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .5);
+    text-decoration: none;
+    width: 200px;
+    margin:0 auto;
+    
+}
+
+#resume {
+    width: 15px;
+    fill: white;
+    margin: 0 auto;
+    fill: darkgoldenrod;
+}
+#resume-link:hover{
+    opacity:.5;
+}
+
+    
+
+    #resume #arrow {
+        animation: updown .5s infinite alternate;
+    }
+
+@keyframes updown {
+    to {
+        transform: translateY(-30px)
+    }
+}
+
+.about-para{
+    text-align: center;
+    padding-left: 1vw;
+}
+#contact{
+    width:130%;
+    color:white;
+    text-align: left;
+}
+
+/*============End of About me============*/
+
+/*================Project================*/
+#project {    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5vw;
+    perspective: 800;
+    padding: 10vw;
+}
+.cube-container{
+    margin:0 auto;
+    
+}
+
+.cube-wrap1 {
+    width: 14vw;
+    height: 14vw;
+    transform-style: preserve-3d;
+    animation: donek 8s infinite alternate;
+}
+
+.cube-wrap2 {
+    width: 14vw;
+    height: 14vw;
+    transform-style: preserve-3d;
+    animation: donek 8s infinite alternate;
+}
+
+.cube-wrap3 {
+    width: 14vw;
+    height: 14vw;
+    transform-style: preserve-3d;
+    animation: donek 8s infinite alternate;
+}
+
+.cube-wrap4 {
+    width: 14vw;
+    height: 14vw;
+    transform-style: preserve-3d;
+    animation: donek 8s infinite alternate;
+}
+
+.cube-wrap5 {
+    width: 14vw;
+    height: 14vw;
+    transform-style: preserve-3d;
+    animation: donek 8s infinite alternate;
+}
+
+.cube-wrap6 {
+    width: 14vw;
+    height: 14vw;
+    transform-style: preserve-3d;
+    animation: donek 8s infinite alternate;
+}
+
+.cube {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.cube-wrap1:hover {
+    animation-play-state: paused;
+}
+
+.cube-wrap2:hover {
+    animation-play-state: paused;
+}
+
+.cube-wrap3:hover {
+    animation-play-state: paused;
+}
+
+.cube-wrap4:hover {
+    animation-play-state: paused;
+}
+
+.cube-wrap5:hover {
+    animation-play-state: paused;
+}
+
+.cube-wrap6:hover {
+    animation-play-state: paused;
+}
+
+
+.cube-wrap1 .cube {
+    box-shadow: 8px 8px 8vw #9400D3 inset;
+}
+
+.cube-wrap2 .cube {
+    box-shadow: 8px 8px 8vw #0000FF inset;
+}
+
+.cube-wrap3 .cube {
+    box-shadow: 8px 8px 8vw #00FF00 inset;
+}
+
+.cube-wrap4 .cube {
+    box-shadow: 8px 8px 8vw #FFFF00 inset;
+}
+
+.cube-wrap5 .cube {
+    box-shadow: 8px 8px 8vw #FF7F00 inset;
+}
+
+.cube-wrap6 .cube {
+    box-shadow: 8px 8px 8vw #FF0000 inset;
+}
+
+
+
+
+
+
+.cube.front {
+    /*writing-mode: vertical-lr;
+text-orientation: use-glyph-orientation;*/
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    word-wrap: break-word;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: floralwhite;
+
+    transform: translateZ(7vw);
+}
+
+.cube.back {
+    transform: rotateY(-180deg) translateZ(7vw);
+}
+
+.cube.left {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    word-wrap: break-word;
+    text-transform: uppercase;
+    font-size: 1.4vw;
+    color: whitesmoke;
+    cursor: pointer;
+
+    transform: rotateY(270deg) translateZ(7vw);
+}
+
+.cube.front p {
+    text-transform: none;
+    font-size: 1vw;
+    font-weight: normal;
+}
+
+.cube.right {
+    transform: rotateY(-270deg) translateZ(7vw);
+}
+
+.cube.top {
+    transform: rotateX(-90deg) translateZ(-5vw);
+}
+
+.cube.bottom {
+    transform: rotateX(-90deg) translateZ(7vw);
+}
+
+@keyframes donek {
+    from {
+        transform: rotateY(25deg);
+    }
+
+    to {
+        transform: rotateY(60deg);
+    }
+}
+
+
+
+/*================End of project=========*/
+
+/*============skills=====================*/
+
+#skills{
+    grid-template-columns: 1fr 6fr 1fr;
+    padding: 2vw;
+}
+
+#backend {    
+    display: grid;
+    grid-template-columns: 1fr ;     
+    grid-gap: 2vw;
+    padding-left:10vw;
+}
+
+#backend #csharp{
+    width:8vw;
+}
+
+#backend #csharp .c {
+    animation: black 5s alternate infinite;
+}
+#backend #aspnet {
+        width: 8vw;
+}
+    #backend #aspnet #background {
+        animation: backgroundWhite 3s infinite alternate
+    }
+@keyframes backgroundWhite {
+
+    to {
+        fill: white;
+    }
+}
+
+#backend #aspnet #letters path {
+    animation: blue 5s alternate infinite;
+}
+
+@keyframes blue {
+    from {
+        fill: transparent;
+    }
+
+    to {
+        fill: dodgerblue;
+    }
+}
+    #backend #aspnetcore {
+        width: 6vw;
+    }
+
+        #backend #aspnetcore .fil2 {
+            fill: #20C0DF;
+            fill-rule: nonzero
+        }
+
+        #backend #aspnetcore .fil0 {
+            fill: #42426E;
+            fill-rule: nonzero;
+            animation: transparent 5s alternate infinite;
+        }
+
+        #backend #aspnetcore .fil1 {
+            fill: #FEFEFE;
+            fill-rule: nonzero
+        }
+
+
+@keyframes transparent {
+
+    to {
+        fill: transparent;
+    }
+}
+#backend #mssql{
+    width:8vw;
+}
+    #backend #mssql #wave {
+        fill: white;
+        animation: Sqlspin 3s alternate infinite;
+    }
+
+@keyframes Sqlspin {
+
+    to {
+        transform: rotate(10deg);
+    }
+}
+
+#backend #mssql .letters {
+    animation: whiteToTransparent 3s alternate infinite;
+}
+
+@keyframes whiteToTransparent {
+    from {
+        fill: white;
+    }
+
+    to {
+        fill: transparent;
+    }
+}
+#desktop img{
+    opacity: .7;
+    width: 100%;
+    
+}
+#frontend {
+    display: grid;
+    grid-template-columns: 1fr;     
+    grid-gap: 2vw;
+    padding-right: 10vw;
+}
+#frontend #css{
+    width:5vw;
+}
+#frontend #html{
+    width:5vw;
+}
+#frontend #javascript{
+    width:5vw;
+}
+#frontend #bootstrap{
+    width:5vw;
+}
+svg#css{
+    animation: blink 3s infinite alternate 
+}
+svg#html{
+    animation: blink 3s infinite alternate  
+}
+svg#javascript{
+    animation: blink 3s infinite alternate 
+        
+}
+svg#bootstrap{
+    animation: blink 3s infinite alternate 
+        
+}
+svg#css:hover{
+    animation-play-state: paused;
+}svg#html:hover{
+    animation-play-state: paused;
+}svg#javascript:hover{
+    animation-play-state: paused;
+}svg#bootstrap:hover{
+    animation-play-state: paused;
+}
+
+@keyframes blink{
+    
+    to{
+       transform: scaleX(1.2)
+    }
+}
+
+/*====================end of skills=====================*/
+
+.modal {
+    background-color: transparent !important;
+    
+}
+.modal-content {
+    background: url(/images/meteor.svg) center/cover fixed no-repeat !important;
+    color:white;
+    
+}
+.modal-title a, span {
+    color: white;
+    text-decoration: none;
+}
+
+
+.modal-body {
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+
+.modal-body-desc {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.modal-body-underline {
+    width: 60vw;
+    height: 2px;
+    background: white;
+    margin: 0 auto;
+}
+
+
+.modal-body-image img {
+    opacity:.5;
+    width:100%; 
+    
+}
+
+.modal-skill-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 4vw;
+    text-transform: uppercase;
+}
+
+.skill-item:hover #square {
+    animation: size 2s ease forwards
+}
+
+.skill-item:hover #arrow {
+    stroke-dasharray: 1450;
+    stroke-dashoffset: 1450;
+    animation: rotate 2s ease forwards;
+}
+
+@keyframes size {
+    to {
+        transform: scaleX(1.1)
+    }
+}
+
+@keyframes rotate {
+    to {
+        transform: rotateZ(360deg)
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    
+    nav label {
+    width: 14vw;
+    height: 4.4vw;
+    font-size: 2.5vw;
+    
+}
+    #title {
+        width: 360px;
+    }
+
+
+
+    #logo{
+        width:50vw;
+        padding-bottom: 10vw;
+    }
+    #aboutMe{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-column-gap: 2vw;
+        padding: 6vw;
+    
+}
+    #about-content{
+    grid-template-columns: 1fr;
+    border-right: none;
+        border-bottom: 1px solid white;
+        padding: 6vw;
+}
+#about-content img{
+    display: none;
+}
+#para h4{
+    font-size:4.5vw;
+    text-align: center;
+}
+#para  h6{
+    font-size:3vw;
+    text-align: center;    
+}
+.about-para{
+    font-size:2.5vw;
+    text-align: center;
+    padding-left: .5vw;
+}
+#contact{
+    width:100%;
+}
+    
+    #project {    
+    grid-template-columns: 1fr 1fr;
+        padding: 15vw;
+        margin: 0 auto ;
+        text-align: center;
+}
+    .cube-wrap1 {
+    width: 24vw;
+    height: 24vw;
+}
+
+.cube-wrap2 {
+    width: 24vw;
+    height: 24vw;
+}
+
+.cube-wrap3 {
+    width: 24vw;
+    height: 24vw;
+}
+
+.cube-wrap4 {
+    width: 24vw;
+    height: 24vw;
+}
+
+.cube-wrap5 {
+    width: 24vw;
+    height: 24vw;
+}
+
+.cube-wrap6 {
+    width: 24vw;
+    height: 24vw;
+}
+
+.cube {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+
+}
+.cube.front {
+    font-size: 2.5vw;
+
+    transform: translateZ(12vw);
+}
+
+.cube.back {
+    transform: rotateY(-180deg) translateZ(12vw);
+}
+
+.cube.left {
+    font-size: 2.5vw;
+
+    transform: rotateY(270deg) translateZ(12vw);
+}
+
+.cube.front p {
+    text-transform: none;
+    font-size: 1.6vw;
+    font-weight: normal;
+}
+
+.cube.right {
+    transform: rotateY(-270deg) translateZ(12vw);
+}
+
+.cube.top {
+    transform: rotateX(-90deg) translateZ(-12vw);
+}
+
+.cube.bottom {
+    transform: rotateX(-90deg) translateZ(12vw);
+}
+
+@keyframes donek {
+    from {
+        transform: rotateY(0);
+    }
+
+    to {
+        transform: rotateY(35deg);
+    }
+}
+
+    #skills{
+    grid-template-columns: 1fr;
+    padding: 2vw;
+}
+
+#backend {    
+    grid-template-columns: 1fr 1fr 1fr 1fr;     
+    padding-left:6vw;
+    padding-top: 20vw;
+}
+
+#backend #csharp{
+    width:17vw;
+}
+#backend #aspnet{
+    width:17vw;
+}
+#backend #aspnetcore{
+    width:15vw;
+}
+#backend #mssql{
+    width:17vw;
+    
+}
+
+#desktop img{
+    opacity: .7;
+    width: 100%;
+    
+}
+#frontend {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;     
+    grid-gap: 2vw;
+    padding-left:10vw;
+    padding-bottom: 15vw;
+}
+#frontend #css{
+    width:12vw;
+}
+#frontend #html{
+    width:12vw;
+}
+#frontend #javascript{
+    width:16vw;
+}
+#frontend #bootstrap{
+    width:16vw;
+}
+    
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    
+
+
+    #project {
+        grid-template-columns: 1fr;
+        padding: 15vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .cube-wrap1 {
+        width: 34vw;
+        height: 34vw;
+    }
+
+    .cube-wrap2 {
+        width: 34vw;
+        height: 34vw;
+    }
+
+    .cube-wrap3 {
+        width: 34vw;
+        height: 34vw;
+    }
+
+    .cube-wrap4 {
+        width: 34vw;
+        height: 34vw;
+    }
+
+    .cube-wrap5 {
+        width: 34vw;
+        height: 34vw;
+    }
+
+    .cube-wrap6 {
+        width: 34vw;
+        height: 34vw;
+    }
+
+    .cube {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+        .cube.front {
+            font-size: 4.5vw;
+            text-transform:uppercase;
+            transform: translateZ(17vw);
+            
+        }
+
+        .cube.back {
+            transform: rotateY(-180deg) translateZ(17vw);
+        }
+
+        .cube.left {
+            font-size: 3.5vw;
+            transform: rotateY(270deg) translateZ(17vw);
+        }
+
+        .cube.front p {
+            text-transform: none;
+            font-size: 2.6vw;
+            font-weight: normal;
+            
+        }
+
+        .cube.right {
+            transform: rotateY(-270deg) translateZ(17vw);
+        }
+
+        .cube.top {
+            transform: rotateX(-90deg) translateZ(-17vw);
+        }
+
+        .cube.bottom {
+            transform: rotateX(-90deg) translateZ(17vw);
+        }
+
+    @keyframes donek {
+        from {
+            transform: rotateY(0);
+        }
+
+        to {
+            transform: rotateY(35deg);
+        }
+    }
+
+
+} 

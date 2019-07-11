@@ -1,0 +1,283 @@
+
+    <svg id="master-artboard" viewBox="0 0 1400 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" style="enable-background:new 0 0 1400 1000;" width="1400px" height="1000px">
+        <style>
+            .st4a {
+                animation: color 2s infinite alternate;
+            }
+
+            .st4b {
+                animation: color 2s infinite alternate .3s;
+            }
+
+            .st4c {
+                animation: color 2s infinite alternate .6s;
+            }
+
+            .st4d {
+                animation: color 2s infinite alternate .9s;
+            }
+
+            .st4e {
+                animation: color 2s infinite alternate 1.2s;
+            }
+
+            .st4f {
+                animation: color 2s infinite alternate 1.5s;
+            }
+
+            .st4g {
+                animation: color 2s infinite alternate 1.8s;
+            }
+
+            .st4h {
+                animation: color 2s infinite alternate 2.1s;
+            }
+
+            .st4i {
+                animation: color 2s infinite alternate 2.4s;
+            }
+
+            .st4j {
+                animation: color 2s infinite alternate 2.7s;
+            }
+
+            .st4k {
+                animation: color 2s infinite alternate 3s;
+            }
+
+            .st4l {
+                animation: color 2s infinite alternate 3.3s;
+            }
+
+            .st4m {
+                animation: color 2s infinite alternate 3.6s;
+            }
+
+            .st4n {
+                animation: color 2s infinite alternate 3.9s;
+            }
+
+            .st4o {
+                animation: color 2s infinite alternate 4.2s;
+            }
+
+            .st4p {
+                animation: color 2s infinite alternate 4.5s;
+            }
+
+            .st4q {
+                animation: color 2s infinite alternate 4.8s;
+            }
+
+            .st4r {
+                animation: color 2s infinite alternate 5.2s;
+            }
+
+            .st4s {
+                animation: color 2s infinite alternate 5.5s;
+            }
+
+            .st4t {
+                animation: color 2s infinite alternate 5.8s;
+            }
+
+            .st4u {
+                animation: color 2s infinite alternate 6.2s;
+            }
+
+            .st4v {
+                animation: color 2s infinite alternate 6.5;
+            }
+
+            .st4w {
+                animation: color 2s infinite alternate 6.8s;
+            }
+
+            .st4x {
+                animation: color 2s infinite alternate 7.2s;
+            }
+
+            .st4y {
+                animation: color 2s infinite alternate 7.5s;
+            }
+
+            .st4z {
+                animation: color 2s infinite alternate 7.8s;
+            }
+
+            .line1 {
+                stroke-dasharray: 152;
+                stroke-dashoffset: 152;
+                animation: line1 10s infinite alternate ease;
+
+                
+            }
+
+
+            .line3 {
+
+                animation: line-anim 2s infinite alternate .9s;
+            }
+
+            .line4 {
+
+                animation: line-anim 2s infinite alternate 1.2s;
+            }
+
+            .line5 {
+
+                animation: line-anim 2s infinite alternate 1.5s;
+            }
+
+            .line6 {
+
+                animation: line-anim 2s infinite alternate 1.8s;
+            }
+
+            .line7 {
+
+                animation: line-anim 2s infinite alternate 2.1s;
+            }
+
+            .line8 {
+
+                stroke-dasharray: 224;
+                stroke-dashoffset: 224;
+                animation: line8 5s infinite alternate ease;
+            }
+
+            .line9 {
+
+                animation: line-anim 2s infinite alternate 2.7s;
+            }
+
+            .line10 {
+
+                animation: line-anim 2s infinite alternate 3.0s;
+            }
+
+            .line11 {
+
+                animation: line-anim 2s infinite alternate 3.3s;
+            }
+
+            @keyframes line-anim {
+
+                to {
+                    fill: blue;
+
+                }
+
+            }
+
+            @keyframes line1 {
+                to {
+                    stroke-dashoffset: 84;
+                    stroke: white;
+                    stroke-width: 6;
+                }
+            }
+            @keyframes line8 {
+                to {
+                    stroke-dashoffset:117;
+                    stroke: white;
+                    stroke-width: 6;
+                }
+            }
+
+            @keyframes color {
+            from{
+            fill:white;
+            }
+
+                to {
+                    stroke: white;
+                    fill: red;
+                }
+            }
+        </style>
+
+       <!-- <path d="M 0 0 H 1400 V 1000 H 0 V 0 Z" class="st0" style="fill: transparent;" />-->
+        <!--keyboard starts p(2-31)-->
+        <path class="st1" d="M864.6,728.3H497.3c-5.4,0-9.8,4.4-9.8,9.8v152.3c0,5.4,4.4,9.8,9.8,9.8h367.3c5.4,0,9.8-4.4,9.8-9.8V738.1&#10;&#9;&#9;&#9;&#9;C874.4,732.7,870,728.3,864.6,728.3z" style="fill: rgb(0,0,0);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4a" d="M512.3,774.4c-1.7,0-3-1.3-3-3v-23.3c0-1.7,1.3-3,3-3h44.9c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H512.3z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st5" d="M512.3,809.8c-1.7,0-3-1.3-3-3v-23.3c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H512.3z" style="fill: rgb(255, 104, 74);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4b" d="M551.4,809.8c-1.7,0-3-1.3-3-3v-23.3c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H551.4z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4c" d="M590.5,809.8c-1.7,0-3-1.3-3-3v-23.3c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H590.5z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4d" d="M629.6,809.8c-1.7,0-3-1.3-3-3v-23.3c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H629.6z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4e" d="M668.7,809.8c-1.7,0-3-1.3-3-3v-23.3c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H668.7z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4f" d="M708.1,809.8c-1.7,0-3-1.3-3-3v-23.3c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H708.1z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4g" d="M747.1,809.8c-1.7,0-3-1.3-3-3v-23.3c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H747.1z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4h" d="M583.3,847.3c-1.7,0-3-1.3-3-3V821c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H583.3z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4i" d="M622.4,847.3c-1.7,0-3-1.3-3-3V821c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H622.4z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4j" d="M661.5,847.3c-1.7,0-3-1.3-3-3V821c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H661.5z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4k" d="M700.6,847.3c-1.7,0-3-1.3-3-3V821c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H700.6z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4l" d="M740,847.3c-1.7,0-3-1.3-3-3V821c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H740z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4m" d="M571.4,774.4c-1.7,0-3-1.3-3-3v-23.3c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H571.4z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4n" d="M610.5,774.4c-1.7,0-3-1.3-3-3v-23.3c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H610.5z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4o" d="M649.6,774.4c-1.7,0-3-1.3-3-3v-23.3c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H649.6z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4p" d="M688.7,774.4c-1.7,0-3-1.3-3-3v-23.3c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H688.7z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4q" d="M728.1,774.4c-1.7,0-3-1.3-3-3v-23.3c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H728.1z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4r" d="M767.2,774.4c-1.7,0-3-1.3-3-3v-23.3c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H767.2z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4s" d="M786.2,809.8c-1.7,0-3-1.3-3-3v-23.3c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H786.2z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4t" d="M512.3,884.4c-1.7,0-3-1.3-3-3v-23.3c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H512.3z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4u" d="M552.2,884.4c-1.7,0-3-1.3-3-3v-23.3c0-1.7,1.3-3,3-3h38.1c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H552.2z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st5" d="M604.1,884.4c-1.7,0-3-1.3-3-3v-23.3c0-1.7,1.3-3,3-3h167.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H604.1z" style="fill: rgb(255, 104, 74);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4v" d="M512.3,847.3c-1.7,0-3-1.3-3-3V821c0-1.7,1.3-3,3-3h56.4c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H512.3z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st5" d="M806.3,774.4c-1.7,0-3-1.3-3-3v-23.3c0-1.7,1.3-3,3-3h45.4c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H806.3z" style="fill: rgb(255, 104, 74);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4w" d="M826.6,809.8c-1.7,0-3-1.3-3-3v-23.3c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H826.6z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4x" d="M826.6,884.8c-1.7,0-3-1.3-3-3v-23.3c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H826.6z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4y" d="M786.2,884.8c-1.7,0-3-1.3-3-3v-23.3c0-1.7,1.3-3,3-3h25.2c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H786.2z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st4z" d="M779,847.3c-1.7,0-3-1.3-3-3V821c0-1.7,1.3-3,3-3h72.7c1.7,0,3,1.3,3,3v23.3c0,1.7-1.3,3-3,3H779z" style="fill: rgb(122, 120, 120);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <!--keyboard ends p(2-31)-->
+
+        <!--monitor p(32-66)-->
+        <g transform="matrix(1, 0, 0, 1, 0, 0)">
+            <path class="st1" d="M735.9,609.5H626c0.4,14.8-3,49.3-42.3,53.9c-7,0.8-12.3,6.6-12.3,13.7v0.6c0,7.6,6.2,13.8,13.8,13.8h191.6&#10;&#9;&#9;&#9;&#9;&#9;c7.6,0,13.8-6.2,13.8-13.8v-0.6c0-7-5.3-12.9-12.3-13.7C738.9,658.9,735.5,624.3,735.9,609.5z" style="fill: rgb(255, 255, 255);" />
+        </g>
+        <path class="st6" d="M624.8,625h112.2c-1.1-5.9-1.3-11.4-1.2-15.4H626C626.1,613.6,625.9,619,624.8,625z" style="fill: rgb(229, 229, 229);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st2" d="M889.6,257.6H472.3c-17.6,0-31.8,14.2-31.8,31.8v287.9c0,17.6,14.2,31.8,31.8,31.8h417.2&#10;&#9;&#9;&#9;&#9;c17.6,0,31.8-14.2,31.8-31.8V289.4C921.4,271.9,907.1,257.6,889.6,257.6z" style="fill: rgb(96, 93, 93);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st1" d="M440.5,549.1v28.3c0,17.6,14.2,31.8,31.8,31.8h417.2c17.6,0,31.8-14.2,31.8-31.8v-28.3H440.5z" style="fill: rgb(255, 255, 255);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st1" d="M886.7,525.5H475.2c-8.1,0-14.7-6.6-14.7-14.7v-214c0-8.1,6.6-14.7,14.7-14.7h411.6&#10;&#9;&#9;&#9;&#9;c8.1,0,14.7,6.6,14.7,14.7v214C901.5,518.9,894.9,525.5,886.7,525.5z" style="fill: rgb(255, 255, 255);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 696.500025 581.400024 A 15.6 15.6 0 0 1 680.900024 597.000025 A 15.6 15.6 0 0 1 665.300024 581.400024 A 15.6 15.6 0 0 1 680.900024 565.800024 A 15.6 15.6 0 0 1 696.500025 581.400024 Z" class="st2" style="fill: rgb(96, 93, 93);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 495.299988 306 H 879.899994 V 505.800003 H 495.299988 V 306 Z" class="line2" style="fill: rgb(96, 93, 93);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 495.299988 306 H 879.899994 V 340.700001 H 495.299988 V 306 Z" class="st6" style="fill: rgb(229, 229, 229);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 525.000024 323.700012 A 7.1 7.1 0 0 1 517.900024 330.800012 A 7.1 7.1 0 0 1 510.800025 323.700012 A 7.1 7.1 0 0 1 517.900024 316.600012 A 7.1 7.1 0 0 1 525.000024 323.700012 Z" class="st3" style="fill: rgb(87, 189, 144);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 557.500024 323.700012 A 7.1 7.1 0 0 1 550.400024 330.800012 A 7.1 7.1 0 0 1 543.300025 323.700012 A 7.1 7.1 0 0 1 550.400024 316.600012 A 7.1 7.1 0 0 1 557.500024 323.700012 Z" class="st7" style="fill: rgb(255, 89, 48);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 590.899988 323.700012 A 7.1 7.1 0 0 1 583.799988 330.800012 A 7.1 7.1 0 0 1 576.699988 323.700012 A 7.1 7.1 0 0 1 583.799988 316.600012 A 7.1 7.1 0 0 1 590.899988 323.700012 Z" class="st8" style="fill: rgb(142, 201, 250);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 560.900024 375 H 631.300026 V 380.9 H 560.900024 V 375 Z" class="line1" style="fill: transparent" />
+        <path d="M 560.900024 457.299988 H 631.300026 V 463.199988 H 560.900024 V 457.299988 Z" class="line11" style="fill: rgb(255, 89, 48);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 567.299988 387.600006 H 655.299988 V 393.500006 H 567.299988 V 387.600006 Z" class="line2" style="fill: rgb(87, 189, 144);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 567.299988 442.299988 H 647.499985 V 448.199988 H 567.299988 V 442.299988 Z" class="line9" style="fill: rgb(87, 189, 144);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 653.5 442.299988 H 673.5 V 448.199988 H 653.5 V 442.299988 Z" class="line10" style="fill: rgb(142, 201, 250);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 567.299988 402.399994 H 666.199989 V 408.299994 H 567.299988 V 402.399994 Z" class="line4" style="fill: rgb(142, 201, 250);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 567.299988 415.700012 H 655.299988 V 421.600012 H 567.299988 V 415.700012 Z" class="line6" style="fill: rgb(87, 189, 144);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 567.299988 429.299988 H 673.699989 V 435.199988 H 567.299988 V 429.299988 Z" class="line8" style="fill: transparent" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 662 415.700012 H 687.6 V 421.600012 H 662 V 415.700012 Z" class="line7" style="fill: rgb(255, 89, 48);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 672.900024 402.399994 H 748.700027 V 408.299994 H 672.900024 V 402.399994 Z" class="line5" style="fill: rgb(142, 201, 250);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 660.099976 387.600006 H 698.399975 V 393.500006 H 660.099976 V 387.600006 Z" class="line3" style="fill: rgb(87, 189, 144);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st3" d="M575.4,369.6l-9.4-5.8v-2.1l9.4-5.8v3l-6.5,3.8l6.5,3.9V369.6z" style="fill: rgb(87, 189, 144);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st3" d="M587.7,352.9l-7.3,19.5h-3.4l7.3-19.5H587.7z" style="fill: rgb(87, 189, 144);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st3" d="M589.3,366.6l6.5-3.9l-6.5-3.8v-3l9.4,5.8v2.1l-9.4,5.8V366.6z" style="fill: rgb(87, 189, 144);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st3" d="M575.4,488.4l-9.4-5.8v-2.1l9.4-5.8v3l-6.5,3.8l6.5,3.9V488.4z" style="fill: rgb(87, 189, 144);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st3" d="M587.7,471.7l-7.3,19.5h-3.4l7.3-19.5H587.7z" style="fill: rgb(87, 189, 144);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st3" d="M589.3,485.4l6.5-3.9l-6.5-3.8v-3l9.4,5.8v2.1l-9.4,5.8V485.4z" style="fill: rgb(87, 189, 144);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 542.200012 353.899994 H 547.300012 V 493.599991 H 542.200012 V 353.899994 Z" class="st7" style="fill: rgb(255, 89, 48);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 530.8 365.700012 A 5.3 5.3 0 0 1 525.5 371.000012 A 5.3 5.3 0 0 1 520.2 365.700012 A 5.3 5.3 0 0 1 525.5 360.400012 A 5.3 5.3 0 0 1 530.8 365.700012 Z" class="st8" style="fill: rgb(142, 201, 250);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 530.8 388.299988 A 5.3 5.3 0 0 1 525.5 393.599988 A 5.3 5.3 0 0 1 520.2 388.299988 A 5.3 5.3 0 0 1 525.5 382.999988 A 5.3 5.3 0 0 1 530.8 388.299988 Z" class="st8" style="fill: rgb(142, 201, 250);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 530.8 410.899994 A 5.3 5.3 0 0 1 525.5 416.199994 A 5.3 5.3 0 0 1 520.2 410.899994 A 5.3 5.3 0 0 1 525.5 405.599994 A 5.3 5.3 0 0 1 530.8 410.899994 Z" class="st8" style="fill: rgb(142, 201, 250);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 530.8 433.5 A 5.3 5.3 0 0 1 525.5 438.8 A 5.3 5.3 0 0 1 520.2 433.5 A 5.3 5.3 0 0 1 525.5 428.2 A 5.3 5.3 0 0 1 530.8 433.5 Z" class="st8" style="fill: rgb(142, 201, 250);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 530.8 456.100006 A 5.3 5.3 0 0 1 525.5 461.400006 A 5.3 5.3 0 0 1 520.2 456.100006 A 5.3 5.3 0 0 1 525.5 450.800006 A 5.3 5.3 0 0 1 530.8 456.100006 Z" class="st8" style="fill: rgb(142, 201, 250);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path d="M 530.8 478.700012 A 5.3 5.3 0 0 1 525.5 484.000012 A 5.3 5.3 0 0 1 520.2 478.700012 A 5.3 5.3 0 0 1 525.5 473.400012 A 5.3 5.3 0 0 1 530.8 478.700012 Z" class="st8" style="fill: rgb(142, 201, 250);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+
+        <!--monitor ends p(32-66)-->
+
+        <!--mouse -->
+        <path class="st1" d="M981.4,714.5h-28.1c-20,0-36.4,16.4-36.4,36.4v80.2c0,20,16.4,36.4,36.4,36.4h28.1c20,0,36.4-16.4,36.4-36.4&#10;&#9;&#9;&#9;&#9;v-80.2C1017.9,730.9,1001.5,714.5,981.4,714.5z" style="fill: rgb(255, 255, 255);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <path class="st6" d="M971.1,734.4h-7.5c-2.2,0-4.1,1.8-4.1,4.1v39.4c0,2.2,1.8,4.1,4.1,4.1h7.5c2.2,0,4.1-1.8,4.1-4.1v-39.4&#10;&#9;&#9;&#9;&#9;C975.2,736.2,973.4,734.4,971.1,734.4z" style="fill: rgb(229, 229, 229);" transform="matrix(1, 0, 0, 1, 0, 0)" />
+        <!--mouse ends-->
+
+
+
+    </svg>
+    
